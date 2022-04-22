@@ -1,5 +1,27 @@
 import 'package:flutter/material.dart';
 
+import 'config/config.dart';
+// Image.asset(Assets.appLogo);
+
+//-------------------------------------------------------------------------
+/*
+// No splash button
+InkWell(
+   splashFactory: NoSplash.splashFactory,
+   child: Icon(TablerIcons.apps),
+   onTap: () {},
+),
+
+// Make component visible by condition
+Visibility(
+   visible: isVisibleVariable,
+   child: Text('Visible'),
+)
+
+
+*/
+//-------------------------------------------------------------------------
+
 void main() {
   runApp(const MyApp());
 }
